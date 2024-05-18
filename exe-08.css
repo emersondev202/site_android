@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&display=swap');
+@font-face {
+    font-family:'android';
+    src: url(idroid.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: linear-gradient(to bottom, rgb(73, 195, 73),rgb(16, 61, 13));
+}
+header h1{
+    font-family:'android';
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+header h2{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+nav{
+    text-align: center;
+    background-color: rgb(16, 61, 13);
+    padding: 15px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 70px;
+}
+main article p{
+    text-indent: 30px;
+    padding: 5px;
+}
+main article .titulo{
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+    padding-left: 5px;
+}
+main article h2{
+    background: linear-gradient(to left,rgb(255, 255, 255), rgb(93, 233, 93));
+    padding: 5px;
+    font-family: "EB Garamond", serif;
+}
+.droids, .irina{
+    width: 100%;
+}
+article .bugdroid{
+    display: block;
+    margin: auto;
+}
+ul{
+    padding: 20px;
+}
+div .prin{
+    background-color: green;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 5px;
+}
+div{
+    background-color: rgb(116, 234, 116);
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.344);
+    
+}
+strong{
+    background-color:rgb(116, 234, 116) ;
+    padding: 2px;
+    border-radius: 5px;
+    color: rgb(33, 119, 33);
+}
+a{
+    text-decoration: none;
+    color: rgb(33, 119, 33);
+}
+footer{
+    background-color: green;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
